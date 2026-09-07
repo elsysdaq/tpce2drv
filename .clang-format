@@ -1,0 +1,52 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 120
+AllowShortFunctionsOnASingleLine: Inline
+NamespaceIndentation: Inner
+RequiresClausePosition: WithPreceding
+SortIncludes: false
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveMacros: Consecutive
+AllowShortCaseLabelsOnASingleLine: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: false
+  AlignCaseArrows: true
+KeepEmptyLines:
+  AtEndOfFile: false
+  AtStartOfBlock: false
+  AtStartOfFile: false
+ShortNamespaceLines: 3
+SortUsingDeclarations: LexicographicNumeric
+PointerAlignment: Right
+DerivePointerAlignment: false
+Standard: c++20
+Macros:
+- VERSIONED_STRUCT(x,v)=struct x
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 1
+AllowAllArgumentsOnNextLine: true
+PackConstructorInitializers: CurrentLine
+BracedInitializerIndentWidth: 2
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel : false
+  AfterClass : false
+  AfterControlStatement: Never
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false

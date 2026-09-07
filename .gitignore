@@ -1,0 +1,18 @@
+x64*
+packages/
+*.user
+.vs/
+
+# Linux kernel module build artifacts
+/linux/**/*.o
+/linux/**/*.ko
+/linux/**/*.mod
+/linux/**/*.mod.c
+/linux/**/.*.cmd
+/linux/**/.tmp_versions/
+/linux/**/Module.markers
+/linux/**/Module.symvers
+/linux/**/modules.order
+/linux/**/modules.builtin
+/linux/**/modules.builtin.modinfo
+/linux/compile_commands.json
