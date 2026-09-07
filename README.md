@@ -1,6 +1,6 @@
-# TPCE2 Linux Driver
+# TPCE Linux Driver
 
-`tpce2drv` is the Linux kernel module for TPCE Gen2 DAQ PCIe boards.
+`tpce2drv` is the Linux kernel module for TPCE Gen2 PCIe DAQ cards.
 
 ## Build With Make
 
